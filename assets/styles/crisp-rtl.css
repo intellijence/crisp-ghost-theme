@@ -3,6 +3,42 @@
 	margin: 0;
 }
 
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot?v=2-RC8');
+    src: url('../fonts/Vazir.eot?v=2-RC8#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir.woff?v=2-RC8') format('woff'),
+    url('../fonts/Vazir.ttf?v=2-RC8') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold.eot?v=2-RC8');
+    src: url('../fonts/Vazir-Bold.eot?v=2-RC8#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold.woff?v=2-RC8') format('woff'),
+    url('../fonts/Vazir-Bold.ttf?v=2-RC8') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+	font-family: Samim;
+	src: url('../fonts/Samim.eot');
+	src: url('../fonts/Samim.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Samim.woff') format('woff'),
+	url('../fonts/Samim.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Samim;
+	src: url('../fonts/Samim-Bold.eot');
+	src: url('../fonts/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Samim-Bold.woff') format('woff'),
+	url('../fonts/Samim-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
 /* Basic Typography */
 html {
     direction: rtl;
@@ -11,7 +47,7 @@ html {
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
-	font-family: "Alef Hebrew", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	font-family: Vazir, Helvetica, Arial, sans-serif;
 	font-weight: 300;
     background: #fff;
 	color: #444;
@@ -53,8 +89,8 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Bree Serif", serif;
-	font-weight: 400 !important;
+	font-family: Samim, serif;
+	font-weight: bold !important;
 }
 h1 {
 	font-size: 2.5em;
@@ -203,7 +239,7 @@ h3.post-title {
 	padding:0.3em 0.6em 0.3em 0.6em;
 	vertical-align:20%;  
 	font-size:0.5em;
-	font-family: "Open Sans", sans-serif;
+	font-family: Vazir, sans-serif;
 	font-weight: 700 !important;
 	text-transform:uppercase;
 	letter-spacing:0.05em;
