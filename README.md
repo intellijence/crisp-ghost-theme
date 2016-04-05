@@ -1,4 +1,9 @@
-# Crisp 
+# Crisp RTL
+
+An RTL version of [Crisp](https://github.com/kathyqian/crisp-ghost-theme/), with localized messages for Persian and
+using fonts [Samim](http://rastikerdar.github.io/samim-font/) and [Vazir](http://rastikerdar.github.io/vazir-font/).
+
+# Crisp
 
 A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com).
 
